@@ -13,7 +13,8 @@ pip install rdkit-pypi==2021.9.3
 pip install dgl==0.7.2 -f https://data.dgl.ai/wheels/repo.html
 pip install performer-pytorch
 pip install tensorboard
-pip install setuptools==59.5.0
+# pip install setuptools==59.5.0
+pip install jedi==0.10
 pip install pytorch_lightning
 
 # install submodules
