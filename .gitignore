@@ -1,6 +1,7 @@
 # JetBrains PyCharm IDE
 .idea/
-
+#my env folder
+tenv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
