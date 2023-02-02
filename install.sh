@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # install requirements
-pip install torch==1.9.1+cu111 torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
+pip install torch==1.13.1 torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
 # install torchaudio, thus fairseq installation will not install newest torchaudio and torch(would replace torch-1.9.1)
 pip install lmdb
 pip install torch-scatter==2.0.9 -f https://pytorch-geometric.com/whl/torch-1.9.1+cu111.html
@@ -14,6 +14,7 @@ pip install dgl==0.7.2 -f https://data.dgl.ai/wheels/repo.html
 pip install performer-pytorch
 pip install tensorboard
 pip install setuptools==59.5.0
+pip install pytorch_lightning
 
 # install submodules
 git submodule update --init --recursive
